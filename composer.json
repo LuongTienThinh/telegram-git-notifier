@@ -56,7 +56,19 @@
     "test": "vendor/bin/pest",
     "post-autoload-dump": [
       "bash ./install.sh"
-    ]
+    ],
+    "post-install-cmd": [
+      "bash ./install.sh"
+    ],
+     "post-file-download": [
+      "bash ./install.sh"
+    ],
+    "post-package-install": [
+            "bash ./install.sh"
+        ],
+    "post-create-project-cmd": [
+           "bash ./install.sh"
+        ]
   },
   "support": {
     "issues": "https://github.com/cslant/telegram-git-notifier/issues"
