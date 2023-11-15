@@ -54,10 +54,7 @@
     "analyse": "vendor/bin/phpstan",
     "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
     "test": "vendor/bin/pest",
-    "post-install-cmd": [
-      "bash ./install.sh"
-    ],
-    "post-update-cmd": [
+    "post-autoload-dump": [
       "bash ./install.sh"
     ]
   },
